@@ -55,6 +55,8 @@ abc1234\" +alert()}//
 
 # JavaScript Parsing: Without the +, alert() is treated as a separate statement which might not get executed depending on the context of the generated JavaScript code in the response.
 
-# The reason the + is necessary for alert() to execute lies in how the server processes and returns the input, and how the browser parses it:
+# The reason the + is necessary for alert() to execute lies in how the server processes and returns the input, and how the browser parses it
+
+# An arithmetic operator is  used to separate the expressions before the alert() function is called. 
 ```
 
