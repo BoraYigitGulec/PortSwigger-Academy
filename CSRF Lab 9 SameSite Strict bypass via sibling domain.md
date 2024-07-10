@@ -71,6 +71,7 @@ password: a
     };
 </script>
 
+# !!! When i sent this to victim it solved my lab but it normally continues so i will continue:
 # Check acess log and you will see message? and value copy it.
 
 eyJ1c2VyIjoiQ09OTkVDVEVEIiwiY29udGVudCI6Ii0tIE5vdyBjaGF0dGluZyB3aXRoIEhhbCBQbGluZSAtLSJ9
