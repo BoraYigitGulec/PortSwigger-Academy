@@ -27,4 +27,6 @@ https://0a14004904ecc36283df8c34006a002a.web-security-academy.net/admin
 # Click to delete next to carlos and still don't close intercept.
 # Keep changing admin value to true and you will complete the lab.
 
+# There is also another way, go to my account page open Application from web tools click on cookies turn admin to true and reload the page or click on my account again.
+# Now you will see admin panel and you can directly delete carlos.
 ```
