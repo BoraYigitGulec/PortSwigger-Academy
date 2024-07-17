@@ -6,6 +6,7 @@
 ```
 ```bash
 # When you visit 2FA page just change the url to this:
+
 https://0a69004204f2f1408228255f007c00a8.web-security-academy.net/my-account
 
 # Visit this url to complete the lab.
